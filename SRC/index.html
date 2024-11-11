@@ -4,18 +4,18 @@
         <meta charset="UTF-8">
         <title>Klimawächter</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--CSS-->
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <Header>
-            <div class="logo">
-                <img src="/Icons/Logo.png">
-            </div>
-            <div class="title">
-                <h1>Klimawächter</h1>
-            </div>
-            <nav>
+            <nav class="sidebar">
                 <ul>
-                    <li class="acitve">
+                   <li class="logo">
+                    <span>Klimawächter</span>
+                    <img src="/Icons/Logo.png">
+                   </li> 
+                    <li class="aktiv">
                         <a href="index.html"></a>
                         <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"/></svg>
                         <span>Home</span>
@@ -34,6 +34,15 @@
             </ul>
             </nav>
         </Header>
-        <main></main>
+        <main>
+            <div class="container">
+                <h2>Zum Projekt</h2>
+                <p>Diese Website ist im Zuge einer Fallstudie des Moduls: Programmierung von Webanwendungsoberflächen entstanden. Die Hauptaufgabe war es fü eine NGO (In dem Fall Klimawächter) eien Webapplikation zu bauen, welche es ermöglicht CO2-Emissionen verschiedener Länder und Unternehmen zu sicheten. In diesem Zuge ist es mir wichtig zu erwähnen, dass diese Daten fiktiv sind und keine wissenschaftliche Relevanz darstellen.</p>
+            </div>
+            <div class="container">
+                <h2>Zur Umsetzung</h2>
+                <p>Für die Umsetzung wurde HTML, CSS und JavaScript verwendet. Weiterführend wurde auf node.js zurückgegriffen um die Tabellen von AGGrid zu nutzen. AGGrid selber baut in diesem Fall auf das React-Framework auf.</p>
+            </div>
+        </main>
     </body>
 </html>
