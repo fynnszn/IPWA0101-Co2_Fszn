@@ -1,6 +1,6 @@
 // Daten
 function loadGridData() {
-    fetch('./data/row_data_synth.json') //-> Lade .json
+    fetch('/data/row_data_synth.json') //-> Lade .json
         .then(response => {
             if (!response.ok) {
                 throw new Error(`HTTP error! Status: ${response.status}`);
