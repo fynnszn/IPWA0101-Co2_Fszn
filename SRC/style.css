@@ -184,15 +184,8 @@ footer {
             align-items: center;
         }
         .logo{
-            order: 1;
-            span{
-            display: flex;
-            justify-content: flex-end;
-            }
-            img{
-                display: none;
-            }
-        }    
+            display: none;
+        }
         span{
             display: none; /* Versteckt Text in der Sidebar im mobilen Layout */
         }

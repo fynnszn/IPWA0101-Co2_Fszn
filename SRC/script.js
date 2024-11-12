@@ -1,3 +1,5 @@
+// Schriftart -> Richtung
+document.documentElement.setAttribute('dir', navigator.language.startsWith('ar') || navigator.language.startsWith('he') ? 'rtl' : 'ltr');
 // Code-Sicherung:
 // XSS
 function sanitizeInput(userInput) { // Funktion gegen XSS
