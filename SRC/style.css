@@ -1,187 +1,200 @@
-/*Übergreifender Standard*/
+/* Übergreifender Standard */
 *{
-    margin:0;
-    padding: 0;
+    margin: 0; /* Entfernt Standard-Rand von allen Elementen */
+    padding: 0; /* Entfernt Standard-Abstand von allen Elementen */
 }
 :root{
-    --nav-base-clr: #1F2836;
-    --nav-text-clr: white;
-    --nav-hover-clr: #2E3744;
-    --nav-line-clr: white;
-    --nav-accent-clr: #2196F3;
-    --base-clr: white;
-    --text-clr: black;
-    --hover-clr: #2E3744;
-    --line-clr: black;
-    --accent-clr: #2196F3;
-
+    /* Definiert Farbvariablen für die gesamte Website */
+    --nav-base-clr: #1F2836; 
+    --nav-text-clr: white; 
+    --nav-hover-clr: #2E3744; 
+    --nav-line-clr: white; 
+    --nav-accent-clr: #2196F3; 
+    --base-clr: white; 
+    --text-clr: black; 
+    --hover-clr: #2E3744; 
+    --line-clr: black; 
+    --accent-clr: #2196F3; 
 }
+
 html{
-    line-height: 1.5rem;
+    line-height: 1.5rem; /* Zeilenhöhe */
     h1{  
-        font-family: "Roboto", sans-serif;
-        font-weight: 700;
+        font-family: "Roboto", sans-serif; /* Schriftart für h1-Überschriften */
+        font-weight: 700; 
         font-style: normal;
       }
     p{  
-        font-family: "Roboto", sans-serif;
-        font-weight: 400;
+        font-family: "Roboto", sans-serif; /* Schriftart für Absatztext */
+        font-weight: 400; 
         font-style: normal;
     }
     body{
-        min-height: 100vh;
-        min-height: 100dvh;
-        display: grid;
-        grid-template-columns: auto 1fr;
+        min-height: 100vh; /* Mindesthöhe des Viewports */
+        min-height: 100dvh; /* Kompatibilität für verschiedene Browser */
+        display: grid; /* Gitterlayout für die Struktur */
+        grid-template-columns: auto 1fr; /* Teilt Layout in zwei Spalten: Sidebar und Content */
         header{
-        background-color: var(--nav-base-clr);
-        color: var(--nav-text-clr);
+        background-color: var(--nav-base-clr); /* Hintergrundfarbe des Headers */
+        color: var(--nav-text-clr); /* Textfarbe im Header */
             svg{
-                fill: var(--nav-text-clr);
-                flex-shrink: 0;
+                fill: var(--nav-text-clr); /* SVG-Farbe im Header */
+                flex-shrink: 0; /* Verhindert das Skalieren der SVG */
             }
         }   
     }
 }
 main{
-    padding: min(30px, 7%);
+    padding: min(30px, 7%); /* Innenabstand für Content-Bereich */
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Vertikale Anordnung der Inhalte */
 }
-/*Anpassung einzelner Abschnitte*/
 
-/*Sidebar (Header)*/
+/* Anpassung einzelner Abschnitte */
+
+/* Sidebar (Header) */
 header img{
     height: 30%;
     width: 30%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-end; /* Rechtsbündiges Logo */
 }
 .sidebar{
-    height: 100vh;
-    width: 250px;
-    padding: 5px 1em;
+    height: 100vh; /* Sidebar füllt gesamte Bildschirmhöhe */
+    width: 250px; /* Breite der Sidebar */
+    padding: 5px 1em; /* Innenabstand in der Sidebar */
     background-color: var(--nav-base-clr);
     border-right: 1px solid var(--nav-line-clr);
-    box-sizing: border-box;
-    position: sticky;
-    top: 0;
+    box-sizing: border-box; /* Einbeziehen von Padding und Border in die Breite */
+    position: sticky; /* Sidebar bleibt beim Scrollen fest */
+    top: 0; /* Sidebar beginnt oben */
     align-self: flex-start;
     ul{
-        list-style-type: none;    
+        list-style-type: none; /* Entfernt Aufzählungszeichen in der Liste */
     }
-    a,.logo{
-        border-radius: .5em;
-        padding: .85em;
-        text-decoration: none;
+    a, .logo{
+        border-radius: .5em; /* Abgerundete Ecken */
+        padding: .85em; /* Innenabstand */
+        text-decoration: none; /* Entfernt Textunterstreichung */
         color: var(--nav-text-clr);
         display: flex;
-        align-items: center;
-        gap: 1em;    
-        display: flex;
-        align-items: center;
+        align-items: center; /* Inhalte vertikal */
+        gap: 1em; /* Abstand zwischen SVG und Text */
     }    
     .logo{
-        justify-content: flex-end;
-        margin-bottom: 16px;
-        }
-
+        justify-content: flex-end; /* Rechtsbündiges Logo */
+        margin-bottom: 16px; /* Abstand unterhalb des Logos */
+    }
     .aktiv{
         svg{
-            fill: var(--nav-accent-clr);
+            fill: var(--nav-accent-clr); /* Färbt aktives Icon mit Akzentfarbe */
         }
     }
     li{
         display: flex;
-        justify-items: flex-start;
+        justify-items: flex-start; /* Linksbündige Elemente */
         align-items: center;
     }
     li:not(.logo):hover {
-        background-color: var(--nav-hover-clr);
+        background-color: var(--nav-hover-clr); /* Hintergrundfarbe beim Hover */
     }
 }
-/*Home*/
+
+/* Home-Seite */
 .container{
-    border: 1px solid var(--line-clr);
-    border-radius: 1em;
-    margin-bottom: 20px;
-    padding: min(3em, 15%);
-    
+    border: 1px solid var(--line-clr); /* Umrandung für den Container */
+    border-radius: 1em; /* Abgerundete Ecken */
+    margin-bottom: 20px; /* Abstand nach unten */
+    padding: min(3em, 15%); /* Innenabstand */
+
     h2, p {
-        margin-top: 1em;
+        margin-top: 1em; /* Abstand oberhalb der Überschrift und Absätze */
     }
 }
-/*Liste*/
+
+/* Liste */
 .liste{
-    background-color: var(--base-clr);
+    background-color: var(--base-clr); 
     display: flex;
-    flex-direction: column;
-    border: 1px solid var(--line-clr);
-    border-radius: 1em;
-    margin-bottom: 20px;
-    padding: min(3em, 15%);
+    flex-direction: column; /* Vertikale Anordnung */
+    border: 1px solid var(--line-clr); /* Umrandung */
+    border-radius: 1em; /* Abgerundete Ecken */
+    margin-bottom: 20px; /* Abstand nach unten */
+    padding: min(3em, 15%); /* Innenabstand */
     h2{
-        margin-bottom: 20px;
+        margin-bottom: 20px; /* Abstand unterhalb der Überschrift */
     }
 }
+
 /* Footer */
 footer {
-    bottom: 0;
+    bottom: 0; /* Footer bleibt unten */
     background-color: var(--base-clr);
-    padding: 1em 0;
-    margin-top: auto;
+    padding: 1em 0; /* Innenabstand im Footer */
+    margin-top: auto; /* Abstand nach oben für flexibles Layout */
     nav {
         display: flex;
-        justify-content: center; 
+        justify-content: center; /* Zentriert Navigation im Footer */
         ul {
-            list-style: none;
+            list-style: none; /* Entfernt Aufzählungszeichen */
             padding: 0;
             margin: 0;
             display: flex;
-            gap: 1em;
+            gap: 1em; /* Abstand zwischen Links */
             li a{
-                text-decoration: none;
-                color: var(--text-clr)
+                text-decoration: none; /* Entfernt Unterstreichung von Links */
+                color: var(--text-clr);
             }
         }
     }
 }
-/*Responsive*/
+
+/* Responsive Design */
 @media(max-width:800px){
     header{
-        z-index: 10; /*Header bleibt über Liste*/
+        z-index: 10;
+        display: grid;
+        grid-template-columns: 3fr; /* Eine Spalte, die den gesamten verfügbaren Platz einnimmt */
+        gap: 10px; /* Liste überlappt nicht mit dem Header */
     }
-    body{
-        grid-template-columns: 1fr;
+    body:no(header){
+        grid-template-columns: 1fr; /* Eine Spalte für mobiles Layout */
     }
     main{
-        padding:2em 1em 60px 1em;
+        padding: 2em 1em 60px 1em; /* Anpassung des Innenabstands */
     }
     .container{
-        border: none;
-        padding: 0;
+        border: none; /* Entfernt Umrandung im mobilen Layout */
+        padding: 0; /* Entfernt Innenabstand */
     }
     .sidebar{
-        height: 60px;
-        width: 100%;
-        border-right: none;
-        border-top: 1px solid var(--nav-line-clr);
-        padding: 0;
-        position: fixed;
-        top: unset;
-        bottom: 0;
+        height: 60px; /* Reduzierte Höhe der Sidebar */
+        width: 100%; /* Sidebar nimmt volle Breite ein */
+        border-right: none; /* Entfernt rechte Umrandung */
+        border-top: 1px solid var(--nav-line-clr); /* Oberes Border für mobile Sidebar */
+        padding: 0; /* Entfernt Innenabstand */
+        position: fixed; /* Sidebar bleibt beim Scrollen fixiert */
+        top: unset; 
+        bottom: 0; /* Sidebar wird am unteren Bildschirmrand platziert */
         ul{
             padding: 0;
             display: grid;
-            grid-auto-columns: 60px;
-            grid-auto-flow: column;
+            grid-auto-columns: 60px; /* Reduzierte Breite der Listenelemente */
+            grid-auto-flow: column; /* Zeilenweise Anordnung */
             align-items: center;
         }
         .logo{
-            display: none;
-        }
+            order: 1;
+            span{
+            display: flex;
+            justify-content: flex-end;
+            }
+            img{
+                display: none;
+            }
+        }    
         span{
-            display: none;
+            display: none; /* Versteckt Text in der Sidebar im mobilen Layout */
         }
     }
 }
