@@ -124,7 +124,7 @@ main p{
         margin-top: 1em;
     }
 }
-/*Land*/
+/*Liste*/
 .liste{
     background-color: var(--base-clr);
     display: flex;
