@@ -1,6 +1,6 @@
 // Daten
 function loadGridData() {
-    fetch('/data/row_data_synth.json') //-> Lade .json
+    fetch('/data/dataland.json') //-> Lade .json
         .then(response => {
             return response.json();
         })
