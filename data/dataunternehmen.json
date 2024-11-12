@@ -1,0 +1,702 @@
+[
+    {
+        "unternehmen": "JPMorgan Chase",
+        "hauptsitz": "New York City",
+        "land": " USA",
+        "branche": "Banken",
+        "em": 88
+    },
+    {
+        "unternehmen": "Berkshire Hathaway",
+        "hauptsitz": "Omaha",
+        "land": " USA",
+        "branche": "Mischkonzern",
+        "em": 58
+    },
+    {
+        "unternehmen": "Saudi Aramco",
+        "hauptsitz": "Dhahran",
+        "land": " Saudi-Arabien",
+        "branche": "Öl und Gas",
+        "em": 95
+    },
+    {
+        "unternehmen": "ICBC",
+        "hauptsitz": "Peking",
+        "land": " Volksrepublik China",
+        "branche": "Banken",
+        "em": 81
+    },
+    {
+        "unternehmen": "Bank of America",
+        "hauptsitz": "Charlotte",
+        "land": " USA",
+        "branche": "Banken",
+        "em": 48
+    },
+    {
+        "unternehmen": "Amazon.com",
+        "hauptsitz": "Seattle",
+        "land": " USA",
+        "branche": "Internethandel",
+        "em": 7
+    },
+    {
+        "unternehmen": "China Construction Bank",
+        "hauptsitz": "Peking",
+        "land": " Volksrepublik China",
+        "branche": "Banken",
+        "em": 97
+    },
+    {
+        "unternehmen": "Microsoft",
+        "hauptsitz": "Redmond",
+        "land": " USA",
+        "branche": "Software",
+        "em": 72
+    },
+    {
+        "unternehmen": "Agricultural Bank of China",
+        "hauptsitz": "Peking",
+        "land": " Volksrepublik China",
+        "branche": "Banken",
+        "em": 38
+    },
+    {
+        "unternehmen": "Alphabet Inc.",
+        "hauptsitz": "Mountain View",
+        "land": " USA",
+        "branche": "Technologie",
+        "em": 4
+    },
+    {
+        "unternehmen": "Toyota Motor",
+        "hauptsitz": "Toyota",
+        "land": " Japan",
+        "branche": "Automobile",
+        "em": 61
+    },
+    {
+        "unternehmen": "Apple",
+        "hauptsitz": "Cupertino",
+        "land": " USA",
+        "branche": "Technologie",
+        "em": 37
+    },
+    {
+        "unternehmen": "Bank of China",
+        "hauptsitz": "Peking",
+        "land": " Volksrepublik China",
+        "branche": "Banken",
+        "em": 12
+    },
+    {
+        "unternehmen": "ExxonMobil",
+        "hauptsitz": "Irving",
+        "land": " USA",
+        "branche": "Öl und Gas",
+        "em": 35
+    },
+    {
+        "unternehmen": "HSBC",
+        "hauptsitz": "London",
+        "land": " Großbritannien",
+        "branche": "Banken",
+        "em": 14
+    },
+    {
+        "unternehmen": "Wells Fargo",
+        "hauptsitz": "San Francisco",
+        "land": " USA",
+        "branche": "Banken",
+        "em": 3
+    },
+    {
+        "unternehmen": "Shell",
+        "hauptsitz": "London",
+        "land": " Großbritannien",
+        "branche": "Öl und Gas",
+        "em": 58
+    },
+    {
+        "unternehmen": "PetroChina",
+        "hauptsitz": "Peking",
+        "land": " Volksrepublik China",
+        "branche": "Öl und Gas",
+        "em": 73
+    },
+    {
+        "unternehmen": "UnitedHealth",
+        "hauptsitz": "Minnetonka",
+        "land": " USA",
+        "branche": "Versicherungen",
+        "em": 85
+    },
+    {
+        "unternehmen": "Walmart",
+        "hauptsitz": "Bentonville",
+        "land": " USA",
+        "branche": "Einzelhandel",
+        "em": 43
+    },
+    {
+        "unternehmen": "Samsung Electronics",
+        "hauptsitz": "Suwon",
+        "land": " Südkorea",
+        "branche": "Technologie",
+        "em": 4
+    },
+    {
+        "unternehmen": "Chevron",
+        "hauptsitz": "San Ramon",
+        "land": " USA",
+        "branche": "Öl und Gas",
+        "em": 24
+    },
+    {
+        "unternehmen": "Goldman Sachs",
+        "hauptsitz": "New York City",
+        "land": " USA",
+        "branche": "Banken",
+        "em": 36
+    },
+    {
+        "unternehmen": "Meta Platforms",
+        "hauptsitz": "Menlo Park",
+        "land": " USA",
+        "branche": "Technologie",
+        "em": 13
+    },
+    {
+        "unternehmen": "TotalEnergies",
+        "hauptsitz": "Courbevoie",
+        "land": " Frankreich",
+        "branche": "Öl und Gas",
+        "em": 66
+    },
+    {
+        "unternehmen": "Morgan Stanley",
+        "hauptsitz": "New York City",
+        "land": " USA",
+        "branche": "Banken",
+        "em": 49
+    },
+    {
+        "unternehmen": "Royal Bank of Canada",
+        "hauptsitz": "Toronto",
+        "land": " Kanada",
+        "branche": "Banken",
+        "em": 47
+    },
+    {
+        "unternehmen": "Citigroup",
+        "hauptsitz": "New York City",
+        "land": " USA",
+        "branche": "Banken",
+        "em": 51
+    },
+    {
+        "unternehmen": "Ping An Insurance",
+        "hauptsitz": "Shenzhen",
+        "land": " Volksrepublik China",
+        "branche": "Versicherungen",
+        "em": 47
+    },
+    {
+        "unternehmen": "China Mobile",
+        "hauptsitz": "Hongkong, Peking",
+        "land": " Volksrepublik China",
+        "branche": "Telekommunikation",
+        "em": 18
+    },
+    {
+        "unternehmen": "Allianz SE",
+        "hauptsitz": "München",
+        "land": " Deutschland",
+        "branche": "Versicherungen",
+        "em": 46
+    },
+    {
+        "unternehmen": "BNP Paribas",
+        "hauptsitz": "Paris",
+        "land": " Frankreich",
+        "branche": "Banken",
+        "em": 80
+    },
+    {
+        "unternehmen": "Verizon",
+        "hauptsitz": "New York City",
+        "land": " USA",
+        "branche": "Telekommunikation",
+        "em": 62
+    },
+    {
+        "unternehmen": "China Merchants Bank",
+        "hauptsitz": "Shenzhen",
+        "land": " Volksrepublik China",
+        "branche": "Banken",
+        "em": 13
+    },
+    {
+        "unternehmen": "UBS",
+        "hauptsitz": "Zürich",
+        "land": " Schweiz",
+        "branche": "Banken",
+        "em": 96
+    },
+    {
+        "unternehmen": "Banco Santander",
+        "hauptsitz": "Santander",
+        "land": " Spanien",
+        "branche": "Banken",
+        "em": 32
+    },
+    {
+        "unternehmen": "AT&T",
+        "hauptsitz": "Dallas",
+        "land": " USA",
+        "branche": "Telekommunikation",
+        "em": 1
+    },
+    {
+        "unternehmen": "Tencent",
+        "hauptsitz": "Shenzhen",
+        "land": " Volksrepublik China",
+        "branche": "Technologie",
+        "em": 22
+    },
+    {
+        "unternehmen": "Mitsubishi UFJ Financial",
+        "hauptsitz": "Tokio",
+        "land": " Japan",
+        "branche": "Finanzen",
+        "em": 73
+    },
+    {
+        "unternehmen": "Comcast",
+        "hauptsitz": "Philadelphia",
+        "land": " USA",
+        "branche": "Telekommunikation",
+        "em": 21
+    },
+    {
+        "unternehmen": "Alibaba Group",
+        "hauptsitz": "Hangzhou",
+        "land": " Volksrepublik China",
+        "branche": "Internethandel",
+        "em": 57
+    },
+    {
+        "unternehmen": "Sinopec",
+        "hauptsitz": "Peking",
+        "land": " Volksrepublik China",
+        "branche": "Öl und Gas",
+        "em": 44
+    },
+    {
+        "unternehmen": "Volkswagen",
+        "hauptsitz": "Wolfsburg",
+        "land": " Deutschland",
+        "branche": "Automobile",
+        "em": 50
+    },
+    {
+        "unternehmen": "TD Bank",
+        "hauptsitz": "Toronto",
+        "land": " Kanada",
+        "branche": "Banken",
+        "em": 51
+    },
+    {
+        "unternehmen": "Johnson & Johnson",
+        "hauptsitz": "New Brunswick",
+        "land": " USA",
+        "branche": "Pharma",
+        "em": 28
+    },
+    {
+        "unternehmen": "TSMC",
+        "hauptsitz": "Hsinchu",
+        "land": " Taiwan",
+        "branche": "Technologie",
+        "em": 9
+    },
+    {
+        "unternehmen": "BP",
+        "hauptsitz": "London",
+        "land": " Großbritannien",
+        "branche": "Öl und Gas",
+        "em": 46
+    },
+    {
+        "unternehmen": "LVMH",
+        "hauptsitz": "Paris",
+        "land": " Frankreich",
+        "branche": "Luxusgüter",
+        "em": 62
+    },
+    {
+        "unternehmen": "Reliance Industries",
+        "hauptsitz": "Mumbai",
+        "land": " Indien",
+        "branche": "Öl und Gas",
+        "em": 35
+    },
+    {
+        "unternehmen": "Nestlé",
+        "hauptsitz": "Vevey",
+        "land": " Schweiz",
+        "branche": "Nahrungsmittel",
+        "em": 100
+    },
+    {
+        "unternehmen": "AXA",
+        "hauptsitz": "Paris",
+        "land": " Frankreich",
+        "branche": "Versicherungen",
+        "em": 76
+    },
+    {
+        "unternehmen": "Mercedes-Benz Group",
+        "hauptsitz": "Stuttgart",
+        "land": " Deutschland",
+        "branche": "Automobile",
+        "em": 73
+    },
+    {
+        "unternehmen": "American Express",
+        "hauptsitz": "New York City",
+        "land": " USA",
+        "branche": "Finanzen",
+        "em": 33
+    },
+    {
+        "unternehmen": "Petrobras",
+        "hauptsitz": "Rio de Janeiro",
+        "land": " Brasilien",
+        "branche": "Öl und Gas",
+        "em": 2
+    },
+    {
+        "unternehmen": "State Bank of India",
+        "hauptsitz": "Neu-Delhi",
+        "land": " Indien",
+        "branche": "Banken",
+        "em": 2
+    },
+    {
+        "unternehmen": "Bank of Communications",
+        "hauptsitz": "Shanghai",
+        "land": " Volksrepublik China",
+        "branche": "Banken",
+        "em": 6
+    },
+    {
+        "unternehmen": "Postal Savings Bank of China",
+        "hauptsitz": "Peking",
+        "land": " Volksrepublik China",
+        "branche": "Banken",
+        "em": 23
+    },
+    {
+        "unternehmen": "Tesla",
+        "hauptsitz": "Austin",
+        "land": " USA",
+        "branche": "Automobile",
+        "em": 48
+    },
+    {
+        "unternehmen": "Procter & Gamble",
+        "hauptsitz": "Cincinnati",
+        "land": " USA",
+        "branche": "Konsumgüter",
+        "em": 80
+    },
+    {
+        "unternehmen": "Stellantis",
+        "hauptsitz": "Amsterdam",
+        "land": " Niederlande",
+        "branche": "Automobile",
+        "em": 10
+    },
+    {
+        "unternehmen": "BMW",
+        "hauptsitz": "München",
+        "land": " Deutschland",
+        "branche": "Automobile",
+        "em": 62
+    },
+    {
+        "unternehmen": "Deutsche Telekom",
+        "hauptsitz": "Bonn",
+        "land": " Deutschland",
+        "branche": "Telekommunikation",
+        "em": 66
+    },
+    {
+        "unternehmen": "Sumitomo Mitsui Financial",
+        "hauptsitz": "Tokio",
+        "land": " Japan",
+        "branche": "Banken",
+        "em": 10
+    },
+    {
+        "unternehmen": "CVS Health",
+        "hauptsitz": "Woonsocket",
+        "land": " USA",
+        "branche": "Pharmahandel",
+        "em": 35
+    },
+    {
+        "unternehmen": "HDFC Bank",
+        "hauptsitz": "Mumbai",
+        "land": " Indien",
+        "branche": "Banken",
+        "em": 56
+    },
+    {
+        "unternehmen": "BBVA",
+        "hauptsitz": "Bilbao",
+        "land": " Spanien",
+        "branche": "Banken",
+        "em": 89
+    },
+    {
+        "unternehmen": "Sony",
+        "hauptsitz": "Tokio",
+        "land": " Japan",
+        "branche": "Technologie",
+        "em": 45
+    },
+    {
+        "unternehmen": "Siemens",
+        "hauptsitz": "München",
+        "land": " Deutschland",
+        "branche": "Technologie",
+        "em": 56
+    },
+    {
+        "unternehmen": "Commonwealth Bank",
+        "hauptsitz": "Sydney",
+        "land": " Australien",
+        "branche": "Banken",
+        "em": 82
+    },
+    {
+        "unternehmen": "Life Insurance Corporation of India",
+        "hauptsitz": "Mumbai",
+        "land": " Indien",
+        "branche": "Versicherungen",
+        "em": 69
+    },
+    {
+        "unternehmen": "General Motors",
+        "hauptsitz": "Detroit",
+        "land": " USA",
+        "branche": "Automobile",
+        "em": 31
+    },
+    {
+        "unternehmen": "NTT",
+        "hauptsitz": "Tokio",
+        "land": " Japan",
+        "branche": "Telekommunikation",
+        "em": 94
+    },
+    {
+        "unternehmen": "Crédit Agricole",
+        "hauptsitz": "Paris",
+        "land": " Frankreich",
+        "branche": "Banken",
+        "em": 93
+    },
+    {
+        "unternehmen": "Broadcom",
+        "hauptsitz": "Irvine",
+        "land": " USA",
+        "branche": "Technologie",
+        "em": 55
+    },
+    {
+        "unternehmen": "Pepsico",
+        "hauptsitz": "Purchase",
+        "land": " USA",
+        "branche": "Konsumgüter",
+        "em": 57
+    },
+    {
+        "unternehmen": "Home Depot",
+        "hauptsitz": "Atlanta",
+        "land": " USA",
+        "branche": "Einzelhandel",
+        "em": 53
+    },
+    {
+        "unternehmen": "Oracle",
+        "hauptsitz": "Redwood City",
+        "land": " USA",
+        "branche": "Software",
+        "em": 55
+    },
+    {
+        "unternehmen": "Mitsubishi Corporation",
+        "hauptsitz": "Tokio",
+        "land": " Japan",
+        "branche": "Mischkonzern",
+        "em": 56
+    },
+    {
+        "unternehmen": "Hoffmann-La Roche",
+        "hauptsitz": "Basel",
+        "land": " Schweiz",
+        "branche": "Pharma",
+        "em": 89
+    },
+    {
+        "unternehmen": "Equinor",
+        "hauptsitz": "Stavanger",
+        "land": " Norwegen",
+        "branche": "Öl und Gas",
+        "em": 59
+    },
+    {
+        "unternehmen": "Elevance Health",
+        "hauptsitz": "Indianapolis",
+        "land": " USA",
+        "branche": "Versicherungen",
+        "em": 28
+    },
+    {
+        "unternehmen": "CNOOC",
+        "hauptsitz": "Peking",
+        "land": " Volksrepublik China",
+        "branche": "Öl und Gas",
+        "em": 45
+    },
+    {
+        "unternehmen": "Industrial Bank",
+        "hauptsitz": "Fuzhou",
+        "land": " Volksrepublik China",
+        "branche": "Banken",
+        "em": 89
+    },
+    {
+        "unternehmen": "Intesa Sanpaolo",
+        "hauptsitz": "Turin",
+        "land": " Italien",
+        "branche": "Banken",
+        "em": 27
+    },
+    {
+        "unternehmen": "IBM",
+        "hauptsitz": "Armonk",
+        "land": " USA",
+        "branche": "Technologie",
+        "em": 83
+    },
+    {
+        "unternehmen": "Chubb",
+        "hauptsitz": "Warren",
+        "land": " Schweiz",
+        "branche": "Versicherungen",
+        "em": 3
+    },
+    {
+        "unternehmen": "Itaú Unibanco",
+        "hauptsitz": "São Paulo",
+        "land": " Brasilien",
+        "branche": "Banken",
+        "em": 19
+    },
+    {
+        "unternehmen": "Anheuser-Busch InBev",
+        "hauptsitz": "Brüssel",
+        "land": " Belgien",
+        "branche": "Konsumgüter",
+        "em": 99
+    },
+    {
+        "unternehmen": "Abbvie",
+        "hauptsitz": "North Chicago",
+        "land": " USA",
+        "branche": "Pharma",
+        "em": 90
+    },
+    {
+        "unternehmen": "Cisco Systems",
+        "hauptsitz": "San José",
+        "land": " USA",
+        "branche": "Technologie",
+        "em": 19
+    },
+    {
+        "unternehmen": "Honda Motor",
+        "hauptsitz": "Tokio",
+        "land": " Japan",
+        "branche": "Automobile",
+        "em": 38
+    },
+    {
+        "unternehmen": "Bank of Nova Scotia",
+        "hauptsitz": "Toronto",
+        "land": " Kanada",
+        "branche": "Banken",
+        "em": 26
+    },
+    {
+        "unternehmen": "Hyundai Motor",
+        "hauptsitz": "Seoul",
+        "land": " Südkorea",
+        "branche": "Automobile",
+        "em": 95
+    },
+    {
+        "unternehmen": "Enel",
+        "hauptsitz": "Rom",
+        "land": " Italien",
+        "branche": "Öl und Gas",
+        "em": 62
+    },
+    {
+        "unternehmen": "CIGNA",
+        "hauptsitz": "Bloomfield",
+        "land": " USA",
+        "branche": "Versicherungen",
+        "em": 54
+    },
+    {
+        "unternehmen": "Costco Wholesale",
+        "hauptsitz": "Issaquah",
+        "land": " USA",
+        "branche": "Einzelhandel",
+        "em": 66
+    },
+    {
+        "unternehmen": "Münchener Rück",
+        "hauptsitz": "München",
+        "land": " Deutschland",
+        "branche": "Versicherungen",
+        "em": 83
+    },
+    {
+        "unternehmen": "Zurich Insurance Group",
+        "hauptsitz": "Zürich",
+        "land": " Schweiz",
+        "branche": "Versicherungen",
+        "em": 25
+    },
+    {
+        "unternehmen": "Novartis",
+        "hauptsitz": "Basel",
+        "land": " Schweiz",
+        "branche": "Pharma",
+        "em": 49
+    },
+    {
+        "unternehmen": "Coca-Cola",
+        "hauptsitz": "Atlanta",
+        "land": " USA",
+        "branche": "Konsumgüter",
+        "em": 22
+    }
+]
