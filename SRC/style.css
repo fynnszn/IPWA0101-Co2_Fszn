@@ -125,7 +125,7 @@ main p{
     }
 }
 /*Land*/
-.land{
+.liste{
     background-color: var(--base-clr);
     display: flex;
     flex-direction: column;
@@ -133,14 +133,8 @@ main p{
     border-radius: 1em;
     margin-bottom: 20px;
     padding: min(3em, 15%);
-}
-#searchbox {
-    color: var(--text-clr);
-    background-color: var(--base-clr);
-    border: 1px solid var(--line-clr);
-    padding: 8px;
-    font-family: "Roboto", sans-serif;
-    border-radius: 4px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    h2{
+        margin-bottom: 20px;
+
+    }
 }
