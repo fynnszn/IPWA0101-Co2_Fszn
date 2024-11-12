@@ -170,3 +170,39 @@ color: var(--accent-clr);
     display: flex;
     flex-direction: column;
 }
+/*Responsive*/
+@media(max-width:800px){
+    body{
+        grid-template-columns: 1fr;
+    }
+    main{
+        padding:2em 1em 60px 1em;
+    }
+    .container{
+        border: none;
+        padding: 0;
+    }
+    .sidebar{
+        height: 60px;
+        width: 100%;
+        border-right: none;
+        border-top: 1px solid var(--nav-line-clr);
+        padding: 0;
+        position: fixed;
+        top: unset;
+        bottom: 0;
+        ul{
+            padding: 0;
+            display: grid;
+            grid-auto-columns: 60px;
+            grid-auto-flow: column;
+            align-items: center;
+        }
+        .logo{
+            display: none;
+        }
+        span{
+            display: none;
+        }
+    }
+}
