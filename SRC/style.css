@@ -91,12 +91,12 @@ header img{
     display: flex;
     align-items: center;
 }
-li{
+.sidebar li{
     display: flex;
     justify-items: flex-start;
     align-items: center;
 }
-li:hover{
+.sidebar li:hover{
     background-color: var(--nav-hover-clr);
 }
 .logo:hover{
@@ -137,4 +137,36 @@ main p{
         margin-bottom: 20px;
 
     }
+}
+/* Footer */
+footer {
+    bottom: 0;
+    background-color: var(--base-clr);
+    padding: 1em 0;
+    margin-top: auto;
+    nav {
+        display: flex;
+        justify-content: center; 
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            gap: 1em;
+            li a{
+                text-decoration: none;
+                color: var(--text-clr)
+            }
+        }
+    }
+}
+
+footer:hover{
+color: var(--accent-clr);
+}
+
+/*Rechtsdokumente*/
+.recht{
+    display: flex;
+    flex-direction: column;
 }
