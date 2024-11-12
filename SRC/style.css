@@ -76,7 +76,6 @@ header img{
 
 }
 .aktiv{
-    color:  var(--nav-accent-clr);
     svg{
         fill: var(--nav-accent-clr);
     }
@@ -90,6 +89,11 @@ header img{
     align-items: center;
     gap: 1em;    
     display: flex;
+    align-items: center;
+}
+li{
+    display: flex;
+    justify-items: flex-start;
     align-items: center;
 }
 li:hover{
