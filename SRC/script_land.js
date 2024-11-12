@@ -2,9 +2,6 @@
 function loadGridData() {
     fetch('/data/row_data_synth.json') //-> Lade .json
         .then(response => {
-            if (!response.ok) {
-                throw new Error(`HTTP error! Status: ${response.status}`);
-            }
             return response.json();
         })
         .then(data => {
@@ -27,14 +24,6 @@ function loadGridData() {
             const eDiv = document.querySelector('#landGrid');
             new agGrid.Grid(eDiv, gridOptions);
         })
-        .catch(error => console.error('Fehler beim Laden der Daten:', error));
-}
-
-// Suchleiste
-function onQuickFilterChanged() {
-    const searchValue = document.getElementById('searchbox').value;
-    if (gridOptions.api) {
-        gridOptions.api.setQuickFilter(searchValue);
-    }
+        .catch(error => console.error('Fehler beim Laden der Daten:', error)); //Fehler Nachricht
 }
 document.addEventListener('DOMContentLoaded', loadGridData);
